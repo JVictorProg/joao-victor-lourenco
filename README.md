@@ -1,1 +1,4 @@
-# testes-workflow-swapi
+# Testes com WorkFlow/Pipeline
+<h3>Este projeto foi desenvolvido para testar a API pública do Star Wars (SWAPI) utilizando Jest e Supertest. Através dos testes, foi verificado a integridade das respostas da API para garantir que ela está funcionando conforme esperado. O projeto abrange diferentes endpoints, como pessoas, planetas, naves estelares e filmes. Cada teste se concentra em validar a resposta recebida, incluindo verificações de status HTTP, propriedades específicas do objeto e o comportamento esperado em caso de rotas inválidas.</h3>
+
+<h3>O projeto também foi configurado para ser executado em um pipeline de integração contínua (CI) no GitHub Actions. Cada teste é isolado e executado separadamente no CI, permitindo uma verificação eficiente e rápida de cada funcionalidade da API. Isso garante que quaisquer mudanças na API sejam detectadas e analisadas automaticamente, melhorando a manutenção e a robustez dos serviços que dependem da SWAPI.</h3>
